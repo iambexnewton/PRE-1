@@ -148,7 +148,7 @@ function flattenArrayByOne(arrayOfArrays) {
   return arrayOfArrays.flat(1);
   // given a nested array or arrays, return a new array with one less level of nesting. All the elements of all the original nested arrays must be kept in their original order
   // for example:
-  // [[1],[2],[[3,4]]] => [1,2,[3,4]]
+  // [[1],[2],[[3,4]]] => [1,2,[3,4]] TEST
 }
 
 function isItemOmnipresent(arrayOfArrays, item) {
