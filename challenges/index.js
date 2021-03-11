@@ -310,8 +310,6 @@ function deleteManyPasswords(users) {
 }
 
 function countTheObjects(arr) {
-  return arr.filter((item) => !Array.isArray(item) && item !== null).length;
-
   /*
     This function takes an array of different data types. It should return a count of the number of objects in the array.
     NB, think carefully about how to test if something is an object! Arrays are technically types of objects in JavaScript, as is the value null. However these should not be counted.
